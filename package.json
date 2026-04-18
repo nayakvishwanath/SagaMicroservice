@@ -1,0 +1,13 @@
+{
+  "name": "saga-pattern-example",
+  "version": "1.0.0",
+  "description": "SAGA design pattern (Orchestration + Choreography) in Node.js — enterprise microservices learning",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "orchestration": "node src/orchestration/demo.js",
+    "choreography": "node src/choreography/demo.js"
+  },
+  "keywords": ["saga", "microservices", "design-patterns"],
+  "license": "MIT"
+}
